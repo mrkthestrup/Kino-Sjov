@@ -3,7 +3,7 @@
 }
 
 #headerLabel {
-    /* -fx-background-color: aqua; */
+     -fx-background-color: aqua;
     -fx-font-size: 50px;
     -fx-alignment: top-center;
 }

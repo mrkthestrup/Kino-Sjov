@@ -19,8 +19,8 @@ public class AdminController {
     @FXML private TableColumn<?, ?> solgteBilletterCol;
     @FXML private TableColumn<?, ?> spilletidCol;
     @FXML private TableColumn<?, ?> kategoriCol;
-    @FXML private Button forestillingButton;
     @FXML private Button addFilmButton;
+    @FXML private Button forestillingButton;
     @FXML private Button editButton;
     @FXML private Button backButton;
     @FXML private Button removeButton;
@@ -32,7 +32,16 @@ public class AdminController {
         changeSceneTo.changeToScene("/View/menu.fxml", "Menu side");
         backButton.getScene().getWindow().hide();
     }
+    public void toaddMovieScene() throws Exception{
+        changeSceneTo.changeToScene("/View/addMovieToDB.fxml", "Add Movie side");
+        addFilmButton.getScene().getWindow().hide();
+    }
 
+
+    public void toShowsScene() throws Exception{
+        changeSceneTo.changeToScene("", "Add Movie side");
+        forestillingButton.getScene().getWindow().hide();
+    }
     //------------------ Scene Slut
 }
 

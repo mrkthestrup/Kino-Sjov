@@ -11,9 +11,8 @@
    <children>
       <Label fx:id="headerLabel" layoutX="319.0" layoutY="73.0" text="Kino" />
       <Button fx:id="reservationButton" layoutX="311.0" layoutY="193.0" mnemonicParsing="false" onAction="#toReservationScene" text="Reservation af film" />
-      <Button fx:id="adminstrationButton" layoutX="220.0" layoutY="246.0" mnemonicParsing="false" onAction="#toAdminScene" text="Tilføj film til biografen" />
-      <Button fx:id="kundeInformationButton" layoutX="323.0" layoutY="300.0" mnemonicParsing="false" onAction="#toKundeInformationScene" text="Kunde Information" />
+      <Button fx:id="adminstrationButton" layoutX="311.0" layoutY="247.0" mnemonicParsing="false" onAction="#toAdminScene" text="Administration" />
+      <Button fx:id="kundeInformationButton" layoutX="310.0" layoutY="300.0" mnemonicParsing="false" onAction="#toKundeInformationScene" text="Kunde Information" />
       <Button fx:id="logAfButton" layoutX="714.0" layoutY="543.0" mnemonicParsing="false" onAction="#logud" text="Log ud" />
-      <Button fx:id="forestillingButton" layoutX="381.0" layoutY="246.0" mnemonicParsing="false" onAction="#toforestillingScene" text="Tilføj film til forestilling" />
    </children>
 </AnchorPane>

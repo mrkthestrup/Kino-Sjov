@@ -18,16 +18,21 @@ public class AddMovieToDBController {
     @FXML    private TextField titelText;
     @FXML    private AnchorPane acchorPane;
     @FXML    private TextArea descriptionArea;
-    @FXML    private ImageView picturePreview;
     @FXML    private ComboBox<?> genreCombo;
     @FXML    private Button addMovieButton;
     @FXML    private Button backButtion;
     @FXML    private Button addPictureButton;
     @FXML    private Label savedLabel;
-    @FXML    private Label MainTitelLabel;
+    @FXML    private Label headerLabel;
     @FXML    private ComboBox<?> ratingCombo;
+    @FXML    private ImageView imageViewNy;
 
+    ChangeSceneTo changeSceneTo = new ChangeSceneTo();
 
+    public void backToAdminScene() throws Exception{
+        changeSceneTo.changeToScene("/View/admin.fxml", "Admin Side");
+        backButtion.getScene().getWindow().hide();
+    }
 
 
 }
