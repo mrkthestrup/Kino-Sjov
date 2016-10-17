@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../CSSTest.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AdminController">
+   <children>
+      <Label fx:id="headerLabel" layoutX="238.0" layoutY="25.0" text="Administration" />
+      <HBox fx:id="hbxTop" layoutX="14.0" layoutY="115.0" prefHeight="396.0" prefWidth="764.0">
+         <children>
+            <TableView fx:id="tableViewAdmin" prefHeight="415.0" prefWidth="765.0">
+              <columns>
+                <TableColumn fx:id="titelCol" maxWidth="1.7976931348623157E308" prefWidth="200.0" text="Titel" />
+                <TableColumn fx:id="spilletidCol" prefWidth="60.0" text="Spilletid" />
+                  <TableColumn fx:id="ratingCol" prefWidth="189.0" text="Rating" />
+                  <TableColumn fx:id="kategoriCol" prefWidth="87.0" text="Kategori" />
+                  <TableColumn fx:id="spilletSidenCol" prefWidth="99.0" text="Spillet siden" />
+                  <TableColumn fx:id="solgteBilletterCol" prefWidth="158.0" text="Solgte billetter" />
+              </columns>
+            </TableView>
+         </children>
+      </HBox>
+      <HBox fx:id="hboxBund" layoutX="14.0" layoutY="524.0" prefHeight="52.0" prefWidth="764.0">
+         <children>
+            <AnchorPane prefHeight="47.0" prefWidth="764.0">
+               <children>
+                  <Button fx:id="backButton" layoutX="22.0" layoutY="14.0" mnemonicParsing="false" onAction="#toMenuScene" text="Tilbage" />
+                  <Button fx:id="forestillingButton" layoutX="283.0" layoutY="14.0" mnemonicParsing="false" text="Forestillinger" />
+                  <Button fx:id="addFilmButton" layoutX="402.0" layoutY="14.0" mnemonicParsing="false" text="Tilføj film" />
+                  <Button fx:id="editButton" layoutX="609.0" layoutY="14.0" mnemonicParsing="false" text="Rediger" />
+                  <Button fx:id="removeButton" layoutX="692.0" layoutY="14.0" mnemonicParsing="false" text="Slet" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

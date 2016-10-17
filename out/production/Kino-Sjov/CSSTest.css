@@ -3,11 +3,17 @@
 }
 
 #headerLabel {
+    /* -fx-background-color: aqua; */
     -fx-font-size: 50px;
     -fx-alignment: top-center;
-
 }
+
 #checkLoginLabel{
     -fx-text-fill: red;
     -fx-font-weight: bold;
 }
+#hboxBund{
+    -fx-background-color: lightgrey;
+}
+
+

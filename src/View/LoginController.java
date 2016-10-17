@@ -14,14 +14,15 @@ public class LoginController {
     @FXML private TextField username;
     @FXML private Label checkLoginLabel;
 
+    // -------------------- Skifter scene
     ChangeSceneTo changeSceneTo = new ChangeSceneTo();
 
-    // Scene ændringer
     public void changeSceneToMenu () throws Exception {
         changeSceneTo.changeToScene("/View/menu.fxml", "Menu");
         //ellers kommer der bare flere vinduer op!
         loginButton.getScene().getWindow().hide();
     }
+    //------------------ Scene Slut
 
     // login metode
     //skal laves bedre, men pt funger den!
@@ -29,7 +30,6 @@ public class LoginController {
         // defaultButton="true" inde i Fxml(ved button oplysningerne) filen for at enter virker, når du har tastet username og password ind
 
         if (username.getText().equals("admin") || password.getText().equals("admin")) {
-            loginButton.setDefaultButton(true);
             checkLoginLabel.setText("Du er nu logget ind!");
             changeSceneToMenu();
         } else {

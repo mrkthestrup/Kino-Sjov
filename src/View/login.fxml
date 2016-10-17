@@ -13,8 +13,8 @@
          </font>
       </Label>
       <Button fx:id="loginButton" defaultButton="true" layoutX="477.0" layoutY="257.0" mnemonicParsing="false" onAction="#login" text="Login" />
-      <TextField fx:id="username" layoutX="315.0" layoutY="238.0" promptText="Username" />
-      <PasswordField fx:id="password" layoutX="315.0" layoutY="275.0" promptText="Password" />
+      <TextField fx:id="username" layoutX="315.0" layoutY="238.0" promptText="Username" text="admin" />
+      <PasswordField fx:id="password" layoutX="315.0" layoutY="275.0" promptText="Password" text="admin" />
       <Label fx:id="checkLoginLabel" layoutX="315.0" layoutY="315.0" />
    </children>
 </AnchorPane>

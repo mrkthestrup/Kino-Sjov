@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03537020-d004-4875-bb1d-a74416dde47a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CSSTest.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/View/ChangeSceneTo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/View/LoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/View/MenuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kino-Sjov/Main.class" afterPath="$PROJECT_DIR$/out/production/Kino-Sjov/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/View/AddMovieToDBController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/View/AdminController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/View/ReservationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kino-Sjov/View/LoginController.class" afterPath="$PROJECT_DIR$/out/production/Kino-Sjov/View/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kino-Sjov/View/MenuController.class" afterPath="$PROJECT_DIR$/out/production/Kino-Sjov/View/MenuController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kino-Sjov/CSSTest.css" afterPath="$PROJECT_DIR$/out/production/Kino-Sjov/CSSTest.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kino-Sjov/View/login.fxml" afterPath="$PROJECT_DIR$/out/production/Kino-Sjov/View/login.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kino-Sjov/View/menu.fxml" afterPath="$PROJECT_DIR$/out/production/Kino-Sjov/View/menu.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CSSTest.css" afterPath="$PROJECT_DIR$/src/CSSTest.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/LoginController.java" afterPath="$PROJECT_DIR$/src/View/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/MenuController.java" afterPath="$PROJECT_DIR$/src/View/MenuController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/login.fxml" afterPath="$PROJECT_DIR$/src/View/login.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/View/menu.fxml" afterPath="$PROJECT_DIR$/src/View/menu.fxml" />
     </list>
     <ignored path="Kino-Sjov.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="468">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +73,44 @@
       <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/MenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="481">
+              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReservationController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/ReservationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddMovieToDBController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/View/AddMovieToDBController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +121,8 @@
       <file leaf-file-name="CSSTest.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CSSTest.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,8 +133,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -112,10 +154,15 @@
         <option value="$PROJECT_DIR$/src/View/loginController.java" />
         <option value="$PROJECT_DIR$/src/View/ChangeSceneTo.java" />
         <option value="$PROJECT_DIR$/src/View/login.fxml" />
-        <option value="$PROJECT_DIR$/src/View/MenuController.java" />
         <option value="$PROJECT_DIR$/src/View/menu.fxml" />
         <option value="$PROJECT_DIR$/src/CSSTest.css" />
+        <option value="$PROJECT_DIR$/src/View/adminController.java" />
         <option value="$PROJECT_DIR$/src/View/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/View/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/View/ReservationController.java" />
+        <option value="$PROJECT_DIR$/src/View/AddMovieToDBController.java" />
+        <option value="$PROJECT_DIR$/src/View/addMovieToDB.fxml" />
+        <option value="$PROJECT_DIR$/src/View/MenuController.java" />
       </list>
     </option>
   </component>
@@ -124,6 +171,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1912" />
@@ -672,12 +726,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476687543037</updated>
-      <workItem from="1476687547589" duration="8194000" />
+      <workItem from="1476687547589" duration="15510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8194000" />
+    <option name="totallyTimeSpent" value="15510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
@@ -739,16 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/ChangeSceneTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/View/login.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -760,20 +804,37 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/reservation.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/ChangeSceneTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSSTest.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -791,18 +852,61 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSSTest.css">
+    <entry file="file://$PROJECT_DIR$/src/View/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="468">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/View/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="630">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/ReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/addMovieToDB.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/AddMovieToDBController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
