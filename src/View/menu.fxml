@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="achorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../CSSTest.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MenuController">
+   <children>
+      <Label fx:id="headerLabel" layoutX="379.0" layoutY="74.0" text="Kino" />
+      <Button fx:id="reservationButton" layoutX="374.0" layoutY="200.0" mnemonicParsing="false" text="Reservation" />
+      <Button fx:id="adminstrationButton" layoutX="374.0" layoutY="247.0" mnemonicParsing="false" text="Adminstration" />
+      <Button layoutX="374.0" layoutY="296.0" mnemonicParsing="false" text="???" />
+      <Button fx:id="logAfButton" layoutX="714.0" layoutY="543.0" mnemonicParsing="false" onAction="#logud" text="Log ud" />
+   </children>
+</AnchorPane>
