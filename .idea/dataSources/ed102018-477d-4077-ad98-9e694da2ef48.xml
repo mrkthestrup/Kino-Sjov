@@ -74,7 +74,7 @@
     <column id="35" parent="18" name="License_price">
       <data-type>int(11)|0</data-type>
     </column>
-    <column id="36" parent="18" name="Tickets_Sold">
+    <column id="36" parent="18" name="Ticketsold">
       <data-type>int(11)|0</data-type>
     </column>
     <column id="37" parent="18" name="Timestamp">

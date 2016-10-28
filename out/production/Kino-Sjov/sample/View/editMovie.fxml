@@ -13,11 +13,10 @@
 <?import javafx.scene.text.*?>
 <?import javafx.collections.FXCollections?>
 
-<AnchorPane fx:id="acchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../CSSTest.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AddMovieToDBController">
+<AnchorPane fx:id="acchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../../CSSFile.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.EditController">
    <children>
-      <Button fx:id="addMovieButton" layoutX="702.0" layoutY="535.0" mnemonicParsing="false" text="Add Movie" />
-      <Button fx:id="backButtion" layoutX="36.0" layoutY="547.0" mnemonicParsing="false" onAction="#backToAdminScene" text="Back" />
-      <Label fx:id="headerLabel" layoutX="279.0" layoutY="24.0" text="Add Movie">
+      <Button fx:id="gemButtonedit" layoutX="702.0" layoutY="535.0" mnemonicParsing="false" onAction="#handleOK" text="Gem" />
+      <Label fx:id="headerLabel" layoutX="279.0" layoutY="24.0" text="Edit Movie">
          <font>
             <Font size="61.0" />
          </font>
@@ -26,12 +25,12 @@
          <font>
             <Font size="34.0" />
          </font></Label>
-      <TextField fx:id="titelText" layoutX="154.0" layoutY="128.0" promptText="Titel" />
-      <TextField fx:id="durationText" layoutX="154.0" layoutY="168.0" promptText="Duration" />
-      <TextField fx:id="ticketPriceText" layoutX="154.0" layoutY="208.0" promptText="Ticket Price" />
-      <TextField fx:id="lincensPriceText" layoutX="154.0" layoutY="248.0" promptText="Licens Price" />
-      <TextArea fx:id="descriptionArea" layoutX="407.0" layoutY="156.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="157.0" prefWidth="295.0" promptText="Description of the Movie" />
-      <ComboBox fx:id="genreCombo" layoutX="154.0" layoutY="289.0" promptText="Genre">
+      <TextField fx:id="titelTextedit" layoutX="154.0" layoutY="128.0" promptText="Titel" />
+      <TextField fx:id="durationTextedit" layoutX="154.0" layoutY="168.0" promptText="Duration" />
+      <TextField fx:id="ticketPriceTextedit" layoutX="154.0" layoutY="208.0" promptText="Ticket Price" />
+      <TextField fx:id="lincensPriceTextedit" layoutX="154.0" layoutY="248.0" promptText="Licens Price" />
+      <TextArea fx:id="descriptionAreaedit" layoutX="407.0" layoutY="156.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="157.0" prefWidth="295.0" promptText="Description of the Movie" />
+      <ComboBox fx:id="genreComboedit" layoutX="154.0" layoutY="289.0" promptText="Genre">
          <items>
                  <FXCollections fx:factory="observableArrayList">
                     <String fx:id="genreCombo1" fx:value="Action" />
@@ -48,18 +47,18 @@
                  </FXCollections>
          </items>
                  </ComboBox>
-      <ComboBox fx:id="ratingCombo" layoutX="154.0" layoutY="328.0" maxWidth="-Infinity" prefHeight="25.0" prefWidth="118.0" promptText="Rating">
+      <ComboBox fx:id="ratingComboedit" layoutX="154.0" layoutY="328.0" maxWidth="-Infinity" prefHeight="25.0" prefWidth="118.0" promptText="Rating">
       <items>
          <FXCollections fx:factory="observableArrayList">
             <String fx:id="ratingCombo1" fx:value="Allowed for everyone" />
-            <String fx:id="ratingCombo2" fx:value="Allowed for everyone but be adviced under 7 years old" />
+            <String fx:id="ratingCombo2" fx:value="Be adviced under 7 years old" />
             <String fx:id="ratingCombo3" fx:value="Allowed from the age of 11" />
             <String fx:id="ratingCombo4" fx:value="Allowed from the age of 15" />
 
          </FXCollections>
       </items>
    </ComboBox>
-      <Button fx:id="addPictureButton" layoutX="572.0" layoutY="483.0" mnemonicParsing="false" text="Add picture" />
+      <Button fx:id="addPictureButtonedit" layoutX="572.0" layoutY="483.0" mnemonicParsing="false" text="Add picture" />
       <Label layoutX="59.0" layoutY="132.0" text="Titel" />
       <Label layoutX="59.0" layoutY="172.0" text="Duration" />
       <Label layoutX="57.0" layoutY="212.0" text="Ticket Price" />
@@ -67,11 +66,12 @@
       <Label layoutX="407.0" layoutY="132.0" text="Description of the movie" />
       <VBox layoutX="502.0" layoutY="328.0">
          <children>
-            <ImageView fx:id="imageViewNy" fitHeight="150.0" fitWidth="200.0" layoutX="502.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imageViewNyedit" fitHeight="150.0" fitWidth="200.0" layoutX="502.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true" />
          </children>
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
       </VBox>
+      <Button fx:id="cancelButton" layoutX="56.0" layoutY="535.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
    </children>
 </AnchorPane>
