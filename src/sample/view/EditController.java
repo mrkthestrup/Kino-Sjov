@@ -24,7 +24,6 @@ public class EditController {
     @FXML    private ComboBox<String> genreComboedit;
     @FXML    private ComboBox<String> ratingComboedit;
 
-
     private Stage dialogStage;
     private Film film;
     private boolean okClicked = true;

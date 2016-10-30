@@ -13,20 +13,22 @@ public class MenuController {
     @FXML private Button kundeInformationButton;
     @FXML private Button forestillingButton;
 
+    MainApp mainApp = new MainApp();
 
     // -------------------- Skifter scene
+    @FXML
+    public void toAdminScene() {
+        mainApp.showAdmin();
+    }
+    // -------------------- Slut scene
 
-    MainApp mainApp = new MainApp();
 
     public void setMainApp(MainApp mainApp) {
         this.mainApp = mainApp;
     }
 
-    @FXML
-    public void toAdminScene() {
-        mainApp.showAdmin();
 
-    }
+
 
 
 

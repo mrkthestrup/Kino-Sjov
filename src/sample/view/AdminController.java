@@ -27,14 +27,11 @@ public class AdminController {
     @FXML    private TableColumn<Film, Date> spilletidCol;
     @FXML    private TableColumn<Film, String> kategoriCol;
     @FXML private Label label;
-    private MainApp mainApp;
 
-    public static ObservableList<Film> filmObservableList = FXCollections.observableArrayList();
+    private MainApp mainApp;
     DBController dbController = new DBController();
 
-
-    public AdminController() {
-    }
+    public static ObservableList<Film> filmObservableList = FXCollections.observableArrayList();
 
     @FXML
     private void initialize() {
@@ -51,21 +48,27 @@ public class AdminController {
         // Listen for selection changes and show the film details when changed.
         tableViewAdmin.getSelectionModel().selectedItemProperty().addListener(
                 (observable, oldValue, newValue) -> showFilmDetails(newValue));
-
         doubleClick();
     }
 
+    //SCENE SKIFT
     @FXML
     public void toMenuScene(){
         mainApp.showMenu();
     }
 
+    public void toaddMovie(){
+        mainApp.showAddMovie();
+    }
+// -------------------- Scene slut
+
+
     public void setMainApp(MainApp mainApp) {
         this.mainApp = mainApp;
-
         // Add observable list to the table
         tableViewAdmin.setItems(filmObservableList);
     }
+
 
     public void doubleClick(){
         //work with double click!
@@ -79,7 +82,7 @@ public class AdminController {
         });
     }
 
-
+    //Edit film!
     @FXML
     private void handleEditfilm() {
         Film selectedPerson = tableViewAdmin.getSelectionModel().getSelectedItem();

@@ -10,6 +10,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import sample.model.Film;
+import sample.view.AddMovieController;
 import sample.view.AdminController;
 import sample.view.EditController;
 import sample.view.MenuController;
@@ -20,13 +21,10 @@ public class MainApp extends Application {
     private Stage primaryStage;
     private BorderPane rootLayout;
 
-    public MainApp() {
-    }
 
     @Override
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
-        //this.primaryStage.setTitle("AddressApp");
 
         initRootLayout();
         showMenu();
@@ -58,9 +56,7 @@ public class MainApp extends Application {
             loader.setLocation(MainApp.class.getResource("/sample/view/menu.fxml"));
             AnchorPane personOverview = (AnchorPane) loader.load();
 
-
             rootLayout.setCenter(personOverview);
-
 
             MenuController controller = loader.getController();
             controller.setMainApp(this);
@@ -77,9 +73,7 @@ public class MainApp extends Application {
             loader.setLocation(MainApp.class.getResource("/sample/view/admin.fxml"));
             AnchorPane personOverview = (AnchorPane) loader.load();
 
-
             rootLayout.setCenter(personOverview);
-
 
             AdminController controller = loader.getController();
             controller.setMainApp(this);
@@ -88,7 +82,6 @@ public class MainApp extends Application {
             e.printStackTrace();
         }
     }
-
     public boolean showPersonEditDialog(Film film) {
         try {
             // Load the fxml file and create a new stage for the popup dialog.
@@ -118,6 +111,31 @@ public class MainApp extends Application {
             return false;
         }
     }
+    public void showAddMovie() {
+        try {
+
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("/sample/view/addMovie.fxml"));
+            AnchorPane addmoviescene = (AnchorPane) loader.load();
+
+            Stage dialogStage = new Stage();
+
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(primaryStage);
+            Scene scene = new Scene(addmoviescene,1280,800);
+            dialogStage.setScene(scene);
+
+            AddMovieController controller = loader.getController();
+            controller.setDialogStage(dialogStage);
+            dialogStage.showAndWait();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
 
 
 

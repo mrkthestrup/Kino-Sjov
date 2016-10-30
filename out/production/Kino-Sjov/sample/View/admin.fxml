@@ -33,7 +33,7 @@
                <children>
                   <Button fx:id="backButton" layoutX="22.0" layoutY="14.0" mnemonicParsing="false" onAction="#toMenuScene" text="Tilbage" />
                   <Button fx:id="forestillingButton" layoutX="283.0" layoutY="14.0" mnemonicParsing="false" text="Forestillinger" />
-                  <Button fx:id="addFilmButton" layoutX="402.0" layoutY="14.0" mnemonicParsing="false" text="Tilføj film" />
+                  <Button fx:id="addFilmButton" layoutX="402.0" layoutY="14.0" mnemonicParsing="false" onAction="#toaddMovie" text="Tilføj film" />
                   <Button fx:id="editButton" layoutX="609.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleEditfilm" text="Rediger" />
                   <Button fx:id="removeButton" layoutX="692.0" layoutY="14.0" mnemonicParsing="false" text="Slet" />
                </children>
